@@ -1,0 +1,131 @@
+
+#cabecalho{
+    position: relative;
+    background-color: #292929;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+   
+}
+#cabecalho ul li h1{
+    padding: 26px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.galeria_fixa{
+   
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card_img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 3px;
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.5s;
+}
+.small_img:hover{
+    transform: scale(1.5);
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#zoom_img{
+    width: 45vw;
+    transform: scale(0);
+}
+
+.zoom_active #zoom_img{
+    transform: scale(1);
+}
+.zoom{
+
+    width: 100vw;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: visibility 0.8s linear, opacity 0.5s linear;
+}
+
+.zoom_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#button1{
+    color:#fff;
+    background-color: rgb(68, 63, 63);
+    position: absolute;
+    top: 40px;
+    right: 280px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: rgb(252, 252, 252);
+    transition: 1s;
+    color: black;
+}
+
+#button{
+    color:#fff;
+    background-color: rgb(63, 58, 58);
+    position: absolute;
+    top: 480px;;
+    right: 40%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(226, 226, 226);
+    transition: 1s;
+    color: black;
+}
+
+#button2{
+    color:#fff;
+    background-color: rgb(63, 58, 58);
+    position: absolute;
+    top: 480px;;
+    right: 55%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: rgb(185, 185, 185);
+    transition: 1s;
+    color: black;
+}
+
+.zoom_active{
+    visibility: visible;
+    opacity: 2;
+
+}
+.teste{
+    src: url("imagens/02.png");
+}

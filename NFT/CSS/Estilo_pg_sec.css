@@ -1,0 +1,228 @@
+body{
+    color: white;
+    background-color:#062B4E;
+    /*display: flex;
+    justify-content: center;*/ 
+}
+
+#margin{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.box{
+    /*width: 90%;
+    height: 90%;*/
+    position: absolute;
+    background-color: #0B172E;
+    
+    /*margin-top: 2%;*/
+    
+    /*border-radius: 30px;*/
+}
+
+#cabecalho{
+    z-index: 10;
+    position: fixed;
+    background-color: #0B172E;
+    left: 0;
+    top: 0;
+    font: normal 10pt inherit;
+    flex: 1;
+    text-align: right;
+    /*margin-right: 10%;*/
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(166, 164, 164);
+}
+#cabecalho ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+#cabecalho ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+#cabecalho ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+#cabecalho ul li:hover::after{
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+
+}
+
+#imagem{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("/IMAGENS/pingamer.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border: none;
+    right: 10%;
+    top: 5%
+    
+}
+
+
+
+
+.nome{
+    text-align: center;
+    font-family: Calibri;
+    top: 700px;
+    left: 10%;
+    
+}
+
+
+#centro{
+    text-align: center;
+
+}
+
+
+
+#TesteNFT{
+    position: absolute;
+    background-color: #0B172E;
+    width: 90%;
+    height: 1050px;
+    /*top: 10%;*/
+    margin-top: 5.5%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+#TesteNFT2{
+    position: absolute;
+    background-color: #0B172E;
+    width: 90%;
+    height: 700px;
+    margin-top: 5.5%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.module p{
+    margin-bottom: 40px;
+}
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.content{
+    padding: 150px 0;
+    background-image: linear-gradient(#0B172E 80%, #01051f 150%); 
+}
+section.module.content-2{
+    padding: 150px 0;
+    background-image: linear-gradient(#0B172E 80%, #01051f 150%);
+    border-radius: 0 0 30px 30px ;
+}
+section.module.parallax-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+section.module.parallax-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+section.module.parallax-1{
+    background-image: url("https://img.freepik.com/vetores-gratis/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpg?size=626&ext=jpg");
+}
+section.module.parallax-2{
+    background-image: url("https://img.freepik.com/vetores-gratis/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpg?size=626&ext=jpg");
+}
+section.module.parallax-3{
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-azul-de-tecnologia-de-dados-com-midia-remixada-por-hacker_53876-108534.jpg?t=st=1650822318~exp=1650822918~hmac=08ba5077e6b1a54357f95139b1e3c88ff1d87564a5daa1688225518b186aca2a&w=826");
+}
+section.module.parallax h1{
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}

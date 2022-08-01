@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header id="cabecalho">
+        <ul>
+            <li><h1>Galeria das maiores criptomoedas do mercado</h1></li>
+        </ul>
+    </header>
+
+
+    <div class="zoom" >
+        <div class="zoom_content">
+            <img src="f1.png" id="zoom_img">
+        </div>
+        <span id="button1">&times;</span>
+        <button onclick="proximo()" id="button">Próximo</button>
+        <button onclick="voltar()" id="button2">Voltar</button>
+    </div>
+
+    <script>
+
+        var img = new Array("f1.png","f2.png","f3.png","f4.png","f5.png","f6.png","f7.png","f8.png","f9.png","f10.png");
+        
+        var imgElement = document.getElementById("zoom_img");
+        var i = 0;
+        var imgLen = img.length;
+        
+                function proximo()
+                {
+                    if(i < imgLen-1)
+                        {
+                            i++;
+                        }
+                    else{
+                            i=0;                
+                        }
+        
+                        imgElement.src = img[i];                    
+                }
+        
+                function voltar()
+                {
+                    if(i > 0)
+                        {
+                            i--;
+                        }
+                    else
+                    {
+                        i = imgLen-1;
+                    }
+                        imgElement.src = img[i];                    
+                }
+        
+    </script>
+
+   
+    <div class="galeria_fixa">
+        <div class="fotos">
+            <div class="card_img">
+                <img src="f1.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f2.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f3.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f4.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f5.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f6.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f7.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f8.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f9.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="f10.png" class="small_img">
+            </div>
+        </div>
+    </div>
+    <script src="teste.js"></script>
+</body>
+</html>

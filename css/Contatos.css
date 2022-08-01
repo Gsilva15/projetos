@@ -1,0 +1,76 @@
+
+section{
+	margin: 100px auto;
+	width:1025px;
+	height:1px;
+	display: flex;
+	justify-content: center;
+}
+
+.rede{
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin-left: 15px;
+	transition: all .4s ease-out;
+	border-radius: 50%;
+}
+
+.rede:hover{
+	cursor: pointer;
+	box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);
+	transform: translateY(-20px);
+}
+
+.rede#facebook{
+	background-image: linear-gradient(rgb(81, 156, 255),rgb(20, 98, 243),rgb(0, 0, 95));
+}
+
+.rede#insta{
+	background-image: linear-gradient(rgb(222, 138, 255),rgb(235, 67, 250), rgb(85, 1, 85));
+}
+
+.rede#whats{
+	background-image: linear-gradient(rgb(17, 255, 17),rgb(2, 190, 2) ,rgb(0, 83, 0));
+}
+
+
+img.icone{
+	margin:0px auto;
+	padding: 35px;
+	width: 80px;
+}
+
+
+#cabecalho{
+    position: fixed; top: 0; left:0; width: 100%;
+    background-color: #292929;
+    height: 80px;
+    text-align: right;
+   
+}
+#cabecalho ul li {
+    padding: 15px;
+    color: #fff;
+    text-align: right;  
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+
+}
+a:hover{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #292929;
+    transition: 0.2s;
+
+    
+}
+
+#h1margin{
+    margin-top: 10%;
+    text-align: center;
+}

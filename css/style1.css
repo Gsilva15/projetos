@@ -1,0 +1,147 @@
+
+
+#botao{
+    color: #ffffff;
+    background-color: #292929;
+    padding: 5px;
+    border-radius: 2px;
+}
+#botao2 {
+    color: #ffffff;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 8px;  
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 20%;
+    text-align: center;
+}
+#botao3 {
+    color: #ffffff;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 8px;  
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+#botao4 {
+    color: #ffffff;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 8px;  
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+#b1{
+    background-image: url("https://i.pinimg.com/originals/fa/dc/b2/fadcb24075acb650de29f258af69d830.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+body{
+    background-color: rgb(254, 255, 255);;
+    height: 2500px;
+   
+}
+#cabecalho{
+    position: fixed; top: 0; left:0; width: 100%;
+    background-color: #292929;
+    height: 80px;
+    text-align: right;
+   
+}
+#cabecalho ul li {
+    padding: 15px;
+    color: #fff;
+    text-align: right;  
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+
+}
+a:hover{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #292929;
+    transition: 0.2s;
+
+    
+}
+
+#text{
+    text-align: left;
+    margin-top: 10%;
+}
+
+article{
+    position: absolute; top: 85vw; left:0; width: 100%;
+
+}
+
+footer{
+    position: absolute; top: 83.6vw; left:0; width: 100%;
+    background-color: fff;
+    margin-top: 24.5%;
+    color: black;
+    height: 100px;
+    text-align: center;
+}
+
+#margem{
+    font-size: 15px;
+    margin-left: 15% ;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-weight: 100;
+}
+#margem1{
+    font-size: 20px;
+    margin-left: 15% ;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-weight: 100;
+}
+#margem2{
+    font-size: 16px;
+    margin-left: 15% ;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+#h1margin{
+    margin-top: 10%;
+    text-align: center;
+}
+#h2margin{
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 30% ;
+    margin-right: 30%;
+    font-size: 30px;
+}
+#bti{
+    height: 800px;
+}
+#p1{
+    height: 50px;
+}
+#DR{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+}
+#center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
